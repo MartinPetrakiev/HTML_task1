@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notebook store</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="5">
+                    <a href="#">Apple</a>
+                    <a href="#">Toshiba</a>
+                    <a href="#">Lenovo</a>
+                    <a href="#">Dell</a>
+                    <a href="#">Asus</a>
+                    <a href="#">Hacer</a>
+                    <a href="#">HP</a>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <div class="shop-container">
+                        <fieldset >
+                            <div class="product-cards-wrapper">
+                                <fieldset name="Apple MacBook Air" class="product-card">
+                                    <legend>Apple MacBook Air</legend>
+                                    <p class="laptop">
+                                        <img src="./laptop_icon_126519.png" alt="Apple MacBook Air" class="product-img">
+                                        <span>1300 USD</span>
+                                    </p>
+                                    <p class="laptop-spec">
+                                        <span>64 GB SSDD</span>
+                                        <br>
+                                        <span>2GB DDR</span>
+                                        <br>
+                                        <span>Intel Core i5</span>
+                                    </p>
+                                </fieldset>
+                                <fieldset name="Apple MacBook Air" class="product-card">
+                                    <legend>Apple MacBook Air</legend>
+                                    <p class="laptop">
+                                        <img src="./laptop_icon_126519.png" alt="Apple MacBook Air" class="product-img">
+                                        <span>1300 USD</span>
+                                    </p>
+                                    <p class="laptop-spec">
+                                        <span>64 GB SSDD</span>
+                                        <br>
+                                        <span>2GB DDR</span>
+                                        <br>
+                                        <span>Intel Core i5</span>
+                                    </p><br>
+                                </fieldset>
+                                <fieldset name="Apple MacBook Air" class="product-card">
+                                    <legend>Apple MacBook Air</legend>
+                                    <p class="laptop">
+                                        <img src="./laptop_icon_126519.png" alt="Apple MacBook Air" class="product-img">
+                                        <span>1300 USD</span>
+                                    </p>
+                                    <p class="laptop-spec">
+                                        <span>64 GB SSDD</span>
+                                        <br>
+                                        <span>2GB DDR</span>
+                                        <br>
+                                        <span>Intel Core i5</span>
+                                    </p>
+                                </fieldset>
+                                <fieldset name="Apple MacBook Air" class="product-card">
+                                    <legend>Apple MacBook Air</legend>
+                                    <p class="laptop">
+                                        <img src="./laptop_icon_126519.png" alt="Apple MacBook Air" class="product-img">
+                                        <span>1300 USD</span>
+                                    </p>
+                                    <p class="laptop-spec">
+                                        <span>64 GB SSDD</span>
+                                        <br>
+                                        <span>2GB DDR</span>
+                                        <br>
+                                        <span>Intel Core i5</span>
+                                    </p>
+                                </fieldset>
+                                <fieldset name="Apple MacBook Air" class="product-card">
+                                    <legend>Apple MacBook Air</legend>
+                                    <p class="laptop">
+                                        <img src="./laptop_icon_126519.png" alt="Apple MacBook Air" class="product-img">
+                                        <span>1300 USD</span>
+                                    </p>
+                                    <p class="laptop-spec">
+                                        <span>64 GB SSDD</span>
+                                        <br>
+                                        <span>2GB DDR</span>
+                                        <br>
+                                        <span>Intel Core i5</span>
+                                    </p>
+                                </fieldset>
+                                <fieldset name="Apple MacBook Air" class="product-card">
+                                    <legend>Apple MacBook Air</legend>
+                                    <p class="laptop">
+                                        <img src="./laptop_icon_126519.png" alt="Apple MacBook Air" class="product-img">
+                                        <span>1300 USD</span>
+                                    </p>
+                                    <p class="laptop-spec">
+                                        <span>64 GB SSDD</span>
+                                        <br>
+                                        <span>2GB DDR</span>
+                                        <br>
+                                        <span>Intel Core i5</span>
+                                    </p>
+                                </fieldset>
+                            </div>
+                        </fieldset>
+                        <div class="filters">
+                            <label for="min-price">Min price: <span id="rValue1">500</span> USD</label>
+                            <input type="range" min="1" max="1000" id="min-price">
+                            <label for="max-price">Max price: <span id="rValue2">1500</span> USD</label>
+                            <input type="range" min="1" max="3000" id="max-price">
+                            <label for="min-ram">Min RAM: <span id="rValue3">4</span> GB</label>
+                            <input type="range" min="1" max="8" id="min-ram">
+                            <label for="max-ram">Max RAM: <span id="rValue4">16</span> GB</label>
+                            <input type="range" min="1" max="32" id="max-ram">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <style>
+        table {
+            border: 2px groove rgb(192, 192, 192);
+            border-radius: 5px;
+        }
+
+        table thead th {
+            border-bottom: 2px groove rgb(192, 192, 192);
+        }
+
+        .shop-container {
+            display: flex;
+            flex-direction: row;
+            
+        }
+
+        .product-cards-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 465px;
+        }
+
+        .product-card {
+            display: flex;
+            flex-wrap: wrap;
+            width: 200px;
+        }
+
+        .laptop {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .laptop-spec {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+
+        .product-img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .filters {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 10px;
+            max-width: 200px;
+        }
+    </style>
+</body>
+</html>
