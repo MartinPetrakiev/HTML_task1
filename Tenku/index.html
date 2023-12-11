@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="header-footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -137,17 +138,164 @@
         </div>
     </header>
     <main>
-        <section class="section-latest">
+        <section id="section-latest">
 
-            <div class="section-title">
-
-                <h2>Latest</h2>
-
+            <div class="section-title-container">
+                <h2 class="section-title">Latest</h2>
             </div>
 
+            <div class="articles-grid-container">
+                <div class="main-article">
+                    <article>
+                        <div class="article-image">
+                            <img src="/assets/image1.webp" alt="Power Event">
+                        </div>
+                        <div class="article-content">
+                            <div class="article-cateogory">Event</div>
+                            <h2>The Summer of Elcetric Dreams: A magical Festival at Battersea Power Station, 2022</h2>
+                            <div class="article-text">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut minima error
+                                veritatis excepturi accusantium quos obcaecati! Voluptatum, porro delectus! Alias
+                                praesentium
+                                numquam dolorem voluptates consectetur recusandae sint ex rem nihil?
+                                Ut doloribus illo eum itaque, neque nulla voluptatibus dolorem quo molestias rem unde
+                                quia culpa
+                                provident possimus illum quod porro? Qui ullam mollitia ducimus at aliquid veritatis in
+                                quae
+                                fuga?
+                            </div>
+                            <p class="article-author">Jojo Sarah</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="grid-articles">
+                    <ul>
+                        <li>
+                            <article>
+                                <div class="article-image">
+                                    <img src="/assets/image2.webp" alt="Birds">
+                                </div>
+                                <div class="article-content">
+                                    <div class="article-cateogory">Fashion</div>
+                                    <h2>The Timeless Allure of All-Black Outfits in the Fashion Scene</h2>
+                                    <p class="article-author">Jojo Sarah</p>
+                                </div>
+                            </article>
+                        </li>
+                        <li>
+                            <article>
+                                <div class="article-image">
+                                    <img src="/assets/image3.webp" alt="Color Shoes">
+                                </div>
+                                <div class="article-content">
+                                    <div class="article-cateogory">Travel</div>
+                                    <h2>Discovering the Allure of Japan's Capital on a Gap Year Adventure</h2>
+                                    <p class="article-author">Jojo Sarah</p>
+                                </div>
+                            </article>
+                        </li>
+                        <li>
+                            <article>
+                                <div class="article-image">
+                                    <img src="/assets/image4.webp" alt="Alley">
+                                </div>
+                                <div class="article-content">
+                                    <div class="article-cateogory">Japan</div>
+                                    <h2>Fushimi Inari Shrine: Kyoto's Enchanting Gateway to the Spiritual World</h2>
+                                    <p class="article-author">Jojo Sarah</p>
+                                </div>
+                            </article>
+                        </li>
+                        <li>
+                            <article>
+                                <div class="article-image">
+                                    <img src="/assets/image5.webp" alt="Black and White City Skyscrapers">
+                                </div>
+                                <div class="article-content">
+                                    <div class="article-cateogory">Health</div>
+                                    <h2>Reflecting on the Past: A Journey Towards Improved Mental Health</h2>
+                                    <p class="article-author">Jojo Sarah</p>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
+        <section id="section-trending">
+            <div class="section-title-container">
+                <h2 class="section-title">Trending</h2>
+            </div>
+            <div class="row-articles">
+                <ul>
+                    <li>
+                        <article>
+                            <div class="article-image">
+                                <img src="/assets/image1.webp" alt="Power Event">
+                            </div>
+                            <div class="article-content">
+                                <div class="article-cateogory">Event</div>
+                                <h2>The Summer of Elcetric Dreams: A magical Festival at Battersea Power Station, 2022
+                                </h2>
+                                <p class="article-author">Jojo Sarah</p>
+                            </div>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="article-image">
+                                <img src="/assets/image2.webp" alt="Birds">
+                            </div>
+                            <div class="article-content">
+                                <div class="article-cateogory">Fashion</div>
+                                <h2>The Timeless Allure of All-Black Outfits in the Fashion Scene</h2>
+                                <p class="article-author">Jojo Sarah</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="article-image">
+                                <img src="/assets/image3.webp" alt="Color Shoes">
+                            </div>
+                            <div class="article-content">
+                                <div class="article-cateogory">Travel</div>
+                                <h2>Discovering the Allure of Japan's Capital on a Gap Year Adventure</h2>
+                                <p class="article-author">Jojo Sarah</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="article-image">
+                                <img src="/assets/image4.webp" alt="Alley">
+                            </div>
+                            <div class="article-content">
+                                <div class="article-cateogory">Japan</div>
+                                <h2>Fushimi Inari Shrine: Kyoto's Enchanting Gateway to the Spiritual World</h2>
+                                <p class="article-author">Jojo Sarah</p>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-
+        <section id="section-archives">
+            <div class="section-title-container">
+                <h2 class="section-title">Archives</h2>
+            </div>
+            <div class="archives-contnet">
+                <span>Health.</span>
+                <span>Fashion.</span>
+                <span>Food.</span>
+                <span>Shopping.</span>
+                <span>Events.</span>
+                <span>Fiction.</span>                   
+                <span>Travel.</span>
+                <span>Japan.</span>                
+                <span>Education.</span>
+            </div>
         </section>
 
     </main>
