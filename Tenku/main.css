@@ -121,6 +121,6 @@ main {
     width: calc(50% - 0.625em);
 }
 
-.archives-contnet {
+.archives-content {
     font-size: var(--font-size-huge);
 }
