@@ -144,11 +144,25 @@
                 <h2 class="section-title">Latest</h2>
             </div>
 
+            <div id="imgModal" class="modal">
+                <div id="modalContent">
+                    <span class="close" id="closeModalBtn">
+                        <svg enable-background="new 0 0 32 32" height="24px" version="1.1" viewBox="0 0 32 32"
+                            width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path
+                            d="M16,4C9.3828,4,4,9.3833,4,16s5.3828,12,12,12s12-5.3833,12-12S22.6172,4,16,4z M16,26c-5.5137,0-10-4.4858-10-10   S10.4863,6,16,6s10,4.4858,10,10S21.5137,26,16,26z M20.707,12.707L17.4141,16l3.293,3.293c0.3906,0.3906,0.3906,1.0234,0,1.4141   C20.5117,20.9023,20.2559,21,20,21s-0.5117-0.0977-0.707-0.293L16,17.4141l-3.293,3.293C12.5117,20.9023,12.2559,21,12,21   s-0.5117-0.0977-0.707-0.293c-0.3906-0.3906-0.3906-1.0234,0-1.4141L14.5859,16l-3.293-3.293   c-0.3906-0.3906-0.3906-1.0234,0-1.4141s1.0234-0.3906,1.4141,0L16,14.5859l3.293-3.293c0.3906-0.3906,1.0234-0.3906,1.4141,0   S21.0977,12.3164,20.707,12.707z" />
+                        </svg>
+                    </span>
+                    <div id="modalImage"></div>
+                </div>
+            </div>
+
             <div class="articles-grid-container">
                 <div class="main-article">
                     <article>
                         <div class="article-image">
-                            <img src="/assets/image1.webp" alt="Power Event">
+                            <img src="/assets/image1.webp" alt="Power Event" class="hooverable">
                         </div>
                         <div class="article-content">
                             <div class="article-cateogory">Event</div>
@@ -173,7 +187,7 @@
                         <li>
                             <article>
                                 <div class="article-image">
-                                    <img src="/assets/image2.webp" alt="Birds">
+                                    <img src="/assets/image2.webp" alt="Birds" class="hooverable">
                                 </div>
                                 <div class="article-content">
                                     <div class="article-cateogory">Fashion</div>
@@ -185,7 +199,7 @@
                         <li>
                             <article>
                                 <div class="article-image">
-                                    <img src="/assets/image3.webp" alt="Color Shoes">
+                                    <img src="/assets/image3.webp" alt="Color Shoes" class="hooverable">
                                 </div>
                                 <div class="article-content">
                                     <div class="article-cateogory">Travel</div>
@@ -197,7 +211,7 @@
                         <li>
                             <article>
                                 <div class="article-image">
-                                    <img src="/assets/image4.webp" alt="Alley">
+                                    <img src="/assets/image4.webp" alt="Alley" class="hooverable">
                                 </div>
                                 <div class="article-content">
                                     <div class="article-cateogory">Japan</div>
@@ -209,7 +223,8 @@
                         <li>
                             <article>
                                 <div class="article-image">
-                                    <img src="/assets/image5.webp" alt="Black and White City Skyscrapers">
+                                    <img src="/assets/image5.webp" alt="Black and White City Skyscrapers"
+                                        class="hooverable">
                                 </div>
                                 <div class="article-content">
                                     <div class="article-cateogory">Health</div>
@@ -220,6 +235,115 @@
                         </li>
                     </ul>
                 </div>
+            </div>
+            <div class="row-articles hidden-container">
+                <ul>
+                    <li>
+                        <article>
+                            <div class="article-image">
+                                <img src="/assets/image5.webp" alt="Black and White City Skyscrapers"
+                                    class="hooverable">
+                            </div>
+                            <div class="article-content">
+                                <div class="article-cateogory">Health</div>
+                                <h2>Reflecting on the Past: A Journey Towards Improved Mental Health</h2>
+                                <p class="article-author">Jojo Sarah</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="article-image">
+                                <img src="/assets/image4.webp" alt="Alley" class="hooverable">
+                            </div>
+                            <div class="article-content">
+                                <div class="article-cateogory">Japan</div>
+                                <h2>Fushimi Inari Shrine: Kyoto's Enchanting Gateway to the Spiritual World</h2>
+                                <p class="article-author">Jojo Sarah</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="article-image">
+                                <img src="/assets/image3.webp" alt="Color Shoes" class="hooverable">
+                            </div>
+                            <div class="article-content">
+                                <div class="article-cateogory">Travel</div>
+                                <h2>Discovering the Allure of Japan's Capital on a Gap Year Adventure</h2>
+                                <p class="article-author">Jojo Sarah</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="article-image">
+                                <img src="/assets/image2.webp" alt="Birds" class="hooverable">
+                            </div>
+                            <div class="article-content">
+                                <div class="article-cateogory">Fashion</div>
+                                <h2>The Timeless Allure of All-Black Outfits in the Fashion Scene</h2>
+                                <p class="article-author">Jojo Sarah</p>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+            <div class="row-articles hidden-container">
+                <ul>
+                    <li>
+                        <article>
+                            <div class="article-image">
+                                <img src="/assets/image3.webp" alt="Color Shoes" class="hooverable">
+                            </div>
+                            <div class="article-content">
+                                <div class="article-cateogory">Travel</div>
+                                <h2>Discovering the Allure of Japan's Capital on a Gap Year Adventure</h2>
+                                <p class="article-author">Jojo Sarah</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="article-image">
+                                <img src="/assets/image2.webp" alt="Birds" class="hooverable">
+                            </div>
+                            <div class="article-content">
+                                <div class="article-cateogory">Fashion</div>
+                                <h2>The Timeless Allure of All-Black Outfits in the Fashion Scene</h2>
+                                <p class="article-author">Jojo Sarah</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="article-image">
+                                <img src="/assets/image5.webp" alt="Black and White City Skyscrapers"
+                                    class="hooverable">
+                            </div>
+                            <div class="article-content">
+                                <div class="article-cateogory">Health</div>
+                                <h2>Reflecting on the Past: A Journey Towards Improved Mental Health</h2>
+                                <p class="article-author">Jojo Sarah</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="article-image">
+                                <img src="/assets/image4.webp" alt="Alley" class="hooverable">
+                            </div>
+                            <div class="article-content">
+                                <div class="article-cateogory">Japan</div>
+                                <h2>Fushimi Inari Shrine: Kyoto's Enchanting Gateway to the Spiritual World</h2>
+                                <p class="article-author">Jojo Sarah</p>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+            <div class="button-more-continer">
+                <button class="button-read-more">Read more</button>
             </div>
         </section>
 
@@ -291,9 +415,9 @@
                 <span>Food.</span>
                 <span>Shopping.</span>
                 <span>Events.</span>
-                <span>Fiction.</span>                   
+                <span>Fiction.</span>
                 <span>Travel.</span>
-                <span>Japan.</span>                
+                <span>Japan.</span>
                 <span>Education.</span>
             </div>
         </section>
@@ -396,6 +520,8 @@
 
         </div>
     </footer>
+
+    <script type="module" src="index.js"></script>
 </body>
 
 </html>

@@ -90,7 +90,7 @@
 .header-container h1 {
     color: white;
     text-align: center;
-    font-size: calc(clamp(2.592rem, 2.592rem + ((1vw - 0.2rem) * 2.983), 4.479rem));
+    font-size: var(--font-size-huge);
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -112,7 +112,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    column-gap: var(--spacing-1);
+    column-gap: var(--spacing-2rem);
+    padding: 0;
 }
 
 .navigation-item {
@@ -137,14 +138,14 @@
 }
 
 .sub-newsletters-container {
-    padding: var(--spacing-2) var(--spacing-1) var(--spacing-1) var(--spacing-1);
+    padding: var(--spacing-4rem) var(--spacing-2rem) var(--spacing-2rem) var(--spacing-2rem);
     max-width: 650px;
     margin: 0 auto;
 }
 
 .footer-copyrights-container p  {
     font-size: var(--font-size-x-small);
-    padding: var(--spacing-1);
+    padding: var(--spacing-2rem);
 }
 
 .subscriptions-container {
